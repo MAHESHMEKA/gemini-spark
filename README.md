@@ -5,8 +5,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-[Visit Tasks (gmail_report task)](tasks/gmail_report.md)
-
 ## About
 
 **Gemini Spark** is a personal AI agent from Google that can manage tasks, run scheduled workflows, and use reusable skills.
@@ -20,6 +18,10 @@ The goal is simple:
 Whether you're experimenting with your first Spark task or building advanced automated workflows, this repository aims to give you practical starting points that you can copy, customize, and improve.
 
 ---
+
+# Check out
+[Visit Tasks (gmail_report task)](tasks/gmail_report.md) <br>
+[Set up spark](setup/setup_spark.md)
 
 ## What You'll Find Here
 
