@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Google Gemini Help Center
+    url: https://support.google.com/gemini
+    about: For official Google Gemini account, subscription, and service support.
+  - name: Community Discussions
+    url: https://github.com/MAHESHMEKA/gemini-spark/discussions
+    about: Ask questions, share ideas, and discuss Gemini Spark workflows with other community members.

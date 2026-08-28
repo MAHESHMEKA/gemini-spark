@@ -1,0 +1,42 @@
+name: "🐛 Report a Bug or Prompt Issue"
+description: "Report an issue, unexpected behavior, or broken prompt in Gemini Spark"
+title: "[Bug]: <Brief summary of issue>"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem! Help us diagnose and fix issues with prompts or workflows.
+  - type: input
+    id: resource_name
+    attributes:
+      label: Affected Task / Skill / Workflow
+      description: Name or file path of the affected item.
+      placeholder: "e.g., tasks/gmail_report.md"
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+      description: What did you expect Gemini Spark to do?
+    validations:
+      required: true
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Actual Behavior / Error
+      description: What did Gemini Spark actually do? (e.g. skipped items, failed schedule, hallucinated format)
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment Details
+      description: Interface used (e.g., Gemini Web, Mac App, Mobile App, Google AI Pro / Ultra).
+      placeholder: "Gemini Web (Chrome) / Google AI Pro"
+  - type: textarea
+    id: proposed_fix
+    attributes:
+      label: Proposed Fix (Optional)
+      description: If you have an idea of how to adjust the prompt to fix this, describe it here.
