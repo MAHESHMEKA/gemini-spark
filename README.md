@@ -19,9 +19,14 @@ Whether you're experimenting with your first Spark task or building advanced aut
 
 ---
 
-# Check out
-[Visit Tasks (gmail_report task)](tasks/gmail_report.md) <br>
-[Set up spark](setup/setup_spark.md)
+## Quick Links
+
+* ⚡ [Tasks](tasks/) — [`tasks/gmail_report.md`](tasks/gmail_report.md)
+* 🧩 [Skills](skills/)
+* 🔄 [Workflows](workflows/)
+* 🛠️ [Setup Guide](setup/setup_spark.md)
+* 🤝 [Contributing Guide](CONTRIBUTING.md)
+* 🎯 [Browse Good First Issues](https://github.com/MAHESHMEKA/gemini-spark/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 ## What You'll Find Here
 
@@ -253,55 +258,53 @@ This repository focuses primarily on building and sharing these reusable buildin
 
 # Contributing
 
-Contributions are welcome! ❤️
+Contributions are welcome! This repository is built as an open-source, community-driven collection of tasks, skills, workflows, and guides for Gemini Spark users.
 
-This project is intended to be built **with the Gemini Spark community**, not just for it.
+### 🎯 Good First Issues
 
-You can contribute in any way that helps improve the repository.
+If you are looking for a place to start, explore our curated beginner-friendly issues. These are self-contained tasks, skills, and documentation improvements designed for newcomers:
+
+👉 **[Browse Open Good First Issues](https://github.com/MAHESHMEKA/gemini-spark/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)**
+
+Current starter areas include:
+* Creating structured scheduled tasks (calendar prep, daily digests)
+* Designing reusable `/skill-name` capability prompts
+* Authoring task creation and troubleshooting documentation
+* Improving existing prompts and testing output contracts
+
+---
+
+### Contributor Journey
+
+The recommended path from discovery to contribution:
+
+```text
+Explore the repository
+        ↓
+Browse Good First Issues
+        ↓
+Review CONTRIBUTING.md
+        ↓
+Fork & create a branch
+        ↓
+Use starter templates & test in Spark
+        ↓
+Open a Pull Request
+```
 
 ### Ways to Contribute
 
 You can:
 
-* Submit new task prompts
-* Submit new skills
-* Improve existing prompts
-* Improve documentation
-* Fix mistakes
-* Report bugs or unexpected behavior
-* Suggest new features
-* Suggest new task or skill categories
-* Share your Gemini Spark workflows
-* Improve examples
-* Improve repository organization
-* Test existing resources
-* Share practical tips and best practices
+* Submit new task prompts using [`templates/task-template.md`](templates/task-template.md)
+* Submit new skills using [`templates/skill-template.md`](templates/skill-template.md)
+* Submit new workflows using [`templates/workflow-template.md`](templates/workflow-template.md)
+* Improve existing prompts and output quality
+* Improve setup guides and documentation
+* Report bugs or unexpected model behaviors
+* Test existing resources in Gemini Spark and share practical feedback
 
-Even small improvements are valuable.
-
----
-
-## How to Contribute
-
-The basic workflow is:
-
-```text
-1. Fork this repository
-        ↓
-2. Create a branch
-        ↓
-3. Make your changes
-        ↓
-4. Test your task / skill / documentation
-        ↓
-5. Commit your changes
-        ↓
-6. Open a Pull Request
-```
-
-A simple contribution is perfectly fine:
-
-> **Fork → Make changes → Open a Pull Request**
+For step-by-step instructions, branch naming conventions, and safety guidelines, see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ---
 
@@ -529,18 +532,14 @@ See [`LICENSE`](LICENSE) for the full license text.
 
 ---
 
-## ⭐ Support the Project
+## Community & Support
 
-If you find this repository useful:
+The best way to support this project is to **use it, improve it, and share what you build with the community**:
 
-* Star the repository
 * Share useful tasks and skills
-* Submit improvements
-* Open issues for bugs or ideas
-* Contribute new workflows
-* Help improve the documentation
-
-The best way to support this project is to **use it, improve it, and share what you build with the community**.
+* Submit prompt improvements and testing feedback
+* Open issues for new automation ideas or bug reports
+* Contribute workflows and guides
 
 ---
 
