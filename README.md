@@ -43,7 +43,7 @@ Currently available:
 
 | Task                                    | Description                                                                             |
 | --------------------------------------- | --------------------------------------------------------------------------------------- |
-| [`gmail-report`](tasks/gmail-report.md) | Daily Gmail analysis with priority classification, action detection, and reply drafting |
+| [`gmail-report`](Tasks/gmail-report.md) | Daily Gmail analysis with priority classification, action detection, and reply drafting |
 
 More tasks will be added as the repository grows.
 
