@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-[Visit Tasks (gmail-report task)](tasks/gmail_report.md)
+[Visit Tasks (gmail_report task)](tasks/gmail_report.md)
 
 ## About
 
@@ -43,7 +43,7 @@ Currently available:
 
 | Task                                    | Description                                                                             |
 | --------------------------------------- | --------------------------------------------------------------------------------------- |
-| [`gmail-report`](Tasks/gmail-report.md) | Daily Gmail analysis with priority classification, action detection, and reply drafting |
+| [`gmail-report`](Tasks/gmail_report.md) | Daily Gmail analysis with priority classification, action detection, and reply drafting |
 
 More tasks will be added as the repository grows.
 
