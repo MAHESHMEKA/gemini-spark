@@ -1,0 +1,71 @@
+name: "🧩 Propose a New Skill"
+description: "Submit a reusable capability prompt (/skill-name) for Gemini Spark"
+title: "[Skill]: <Skill Name>"
+labels: ["category: skill"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a new Gemini Spark skill! A skill teaches Spark **how** to perform a specific type of work.
+  - type: input
+    id: skill_name
+    attributes:
+      label: Skill Name
+      description: Concise name for the skill (e.g., Code Reviewer, Email Priority Classifier).
+      placeholder: "e.g., Action Item Extractor"
+    validations:
+      required: true
+  - type: input
+    id: slash_command
+    attributes:
+      label: Slash Command Identifier
+      description: The shorthand identifier used to reference this skill.
+      placeholder: "e.g., /extract-actions"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Email
+        - Writing & Drafting
+        - Coding & Developer
+        - Productivity
+        - Data & Analysis
+        - Organization
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Reusable Capability / Purpose
+      description: Explain what methodology or behavior this skill teaches Gemini Spark.
+      placeholder: "Teaches Spark how to analyze unstructured meeting notes and reliably extract action items with assignees and deadlines."
+    validations:
+      required: true
+  - type: textarea
+    id: instructions
+    attributes:
+      label: Skill Instructions (Prompt)
+      description: Provide the complete instructions that define this skill.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: example_usage
+    attributes:
+      label: Example Usage
+      description: Show how this skill is invoked within a task or prompt.
+      placeholder: "/extract-actions from the meeting transcript attached..."
+      render: text
+  - type: checkboxes
+    id: validation
+    attributes:
+      label: Verification & Safety Confirmation
+      options:
+        - label: I have tested this skill in Gemini Spark.
+          required: true
+        - label: I have verified that NO personal credentials or private data are present in the prompt.
+          required: true

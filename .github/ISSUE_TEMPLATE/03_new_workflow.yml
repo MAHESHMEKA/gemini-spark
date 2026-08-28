@@ -1,0 +1,48 @@
+name: "🔄 Propose a New Workflow"
+description: "Submit a complete multi-step automation workflow combining tasks, schedules, and skills"
+title: "[Workflow]: <Workflow Name>"
+labels: ["category: workflow"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a new Gemini Spark workflow! A workflow connects multiple building blocks into an end-to-end automation pipeline.
+  - type: input
+    id: workflow_name
+    attributes:
+      label: Workflow Name
+      placeholder: "e.g., Morning Executive Briefing (Gmail + Calendar + Tasks)"
+    validations:
+      required: true
+  - type: textarea
+    id: overview
+    attributes:
+      label: Workflow Overview & Objective
+      description: What end-to-end outcome does this workflow produce?
+      placeholder: "Combines daily email scanning, calendar agenda review, and task tracking into a unified 7:00 AM executive brief."
+    validations:
+      required: true
+  - type: textarea
+    id: architecture
+    attributes:
+      label: Architecture & Building Blocks
+      description: Outline the steps, connected services, tasks, schedules, and skills involved.
+      placeholder: "1. Trigger: Daily at 7:00 AM\n2. Data sources: Gmail + Calendar\n3. Skills: /classify-email + /exec-summary\n4. Output: Markdown briefing"
+    validations:
+      required: true
+  - type: textarea
+    id: setup_steps
+    attributes:
+      label: Setup & Execution Instructions
+      description: Step-by-step instructions for a user to configure this in Gemini Spark.
+    validations:
+      required: true
+  - type: checkboxes
+    id: validation
+    attributes:
+      label: Verification Confirmation
+      options:
+        - label: I have tested this full workflow in Gemini Spark.
+          required: true
+        - label: All personal information and secrets have been replaced with placeholders.
+          required: true

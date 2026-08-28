@@ -121,28 +121,36 @@ gemini-spark/
 │
 ├── README.md
 ├── LICENSE
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
 │
 ├── tasks/
-│   └── gmail-report.md
+│   └── gmail_report.md
 │
 ├── skills/
-│   └── ...
+│   └── README.md
 │
 ├── setup/
-│   └── ...
+│   └── setup_spark.md
 │
-└── workflows/
-    └── ...
+├── workflows/
+│   └── README.md
+│
+└── templates/
+    ├── task-template.md
+    ├── skill-template.md
+    └── workflow-template.md
 ```
 
 ### Directory Guide
 
-| Directory    | Purpose                                |
-| ------------ | -------------------------------------- |
-| `tasks/`     | Ready-to-use Gemini Spark task prompts |
-| `skills/`    | Reusable Spark skills                  |
-| `setup/`     | Setup and configuration guides         |
-| `workflows/` | Complete workflow examples             |
+| Directory    | Purpose                                              |
+| ------------ | ---------------------------------------------------- |
+| `tasks/`     | Ready-to-use Gemini Spark task prompts               |
+| `skills/`    | Reusable Spark skills                                |
+| `setup/`     | Setup and configuration guides                       |
+| `workflows/` | Complete workflow examples                           |
+| `templates/` | Starter templates for tasks, skills, and workflows   |
 
 As the project grows, additional categories may be introduced when they provide clear value.
 
@@ -170,7 +178,7 @@ Choose something relevant to your workflow and adapt it to your needs.
 Open a task file such as:
 
 ```text
-tasks/gmail-report.md
+tasks/gmail_report.md
 ```
 
 Copy the prompt and use it when creating your Gemini Spark task.
@@ -418,20 +426,19 @@ This roadmap will evolve as the community grows.
 * [x] Repository created
 * [x] Initial Gmail report task
 * [x] MIT license
-* [ ] Initial setup documentation
+* [x] Initial setup documentation
+* [x] Contribution guide & templates
+* [x] Issue & PR templates
 * [ ] Initial skills collection
 
 ### Planned
 
-* [ ] Gemini Spark setup guide
+* [ ] Gemini Spark setup guide expansion
 * [ ] Task creation guide
 * [ ] Skills guide
 * [ ] More ready-to-use task prompts
 * [ ] More reusable skills
 * [ ] Workflow examples
-* [ ] Contribution guide
-* [ ] Issue templates
-* [ ] Pull request template
 * [ ] Troubleshooting guide
 * [ ] Community-submitted workflows
 * [ ] Better task/skill categorization

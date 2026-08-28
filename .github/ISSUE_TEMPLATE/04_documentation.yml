@@ -1,0 +1,32 @@
+name: "📖 Documentation Improvement"
+description: "Suggest an improvement, clarification, or fix to setup guides or repository documentation"
+title: "[Docs]: <Brief description of doc change>"
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping keep our documentation accurate and beginner-friendly!
+  - type: input
+    id: affected_doc
+    attributes:
+      label: Affected Document
+      description: Which file or section needs improvement?
+      placeholder: "e.g., setup/setup_spark.md or README.md"
+    validations:
+      required: true
+  - type: textarea
+    id: problem_description
+    attributes:
+      label: Problem or Missing Information
+      description: What is currently confusing, missing, or outdated?
+      placeholder: "The setup instructions for connecting Workspace do not mention..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution or Content
+      description: What should the documentation say instead?
+    validations:
+      required: true
