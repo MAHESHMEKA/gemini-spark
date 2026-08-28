@@ -1,3 +1,3 @@
 # gemini-spark-skills
 
-[Spark Tasks] (https://github.com/MAHESHMEKA/gemini-spark-skills/tree/main/Tasks)
+[Visit Tasks](tasks/gmail_report.md)
