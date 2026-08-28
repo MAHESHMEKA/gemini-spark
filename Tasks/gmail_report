@@ -1,0 +1,101 @@
+Every day at **6:00 AM India Standard Time (IST, UTC+5:30)**, search my Gmail and generate a **Daily Gmail Summary Report**.
+
+### 1. Email scanning
+
+* Review **all relevant recent emails**, with **unread emails as the highest priority**.
+* Do not limit the analysis only to unread emails if an important older email requires attention.
+* Identify emails that require action, contain deadlines, involve money/payments, job opportunities, account/security issues, or otherwise appear important.
+* Avoid cluttering the report with obvious promotional emails, newsletters, routine notifications, social updates, or low-value automated emails unless they require action.
+* Group duplicate or repeated notifications when appropriate instead of listing the same information multiple times.
+
+### 2. Priority classification
+
+#### HIGH PRIORITY
+
+Include emails that are urgent, important, time-sensitive, financially significant, career-related, security-related, or likely to require immediate attention.
+
+Examples include:
+
+* **Google Careers / job opportunities / interview-related emails**
+* Job application updates, interview invitations, assessments, offer letters, recruiter messages, or hiring deadlines
+* **Payment-related emails** such as payments due, failed payments, refunds, transactions, invoices, bills, subscriptions, or financial alerts
+* **Deadline-related emails** such as application deadlines, assignment deadlines, registration deadlines, payment deadlines, interview deadlines, expiring offers, etc.
+* Account/security alerts, password changes, suspicious activity, verification requests, or important access-related notifications
+* Important academic, professional, government, or administrative communications
+* Any other email where ignoring it could cause a meaningful loss, missed opportunity, penalty, or important consequence
+
+For every HIGH PRIORITY email, provide:
+
+**Subject:** [Gmail subject]
+**Summary:** Explain the email in **2–3 concise lines**, focusing on what matters.
+**Action needed:** Yes/No — clearly state what I need to do, if anything.
+**Deadline:** Mention the deadline/date when available.
+
+---
+
+#### MEDIUM PRIORITY
+
+Include emails that are useful or potentially important but are **not urgent** and do not require immediate attention.
+
+For every MEDIUM PRIORITY email, provide:
+
+**Subject:** [Gmail subject]
+**Summary:** Explain the email in **2–3 concise lines**.
+**Action needed:** Yes/No — clearly state whether I need to do anything.
+
+---
+
+### 3. REPLY REQUIRED
+
+Create this section **only when a reply is genuinely needed**.
+
+Do not include automated notifications, newsletters, FYI messages, receipts, promotional emails, or emails where no response is expected.
+
+For each email that genuinely requires a response, provide:
+
+**Subject:** [Gmail subject]
+**Why a reply is needed:** Briefly explain why I should respond.
+**Suggested reply:** Draft a clear, natural, professional reply that I can review, modify, and send myself.
+
+The draft should:
+
+* Directly address the sender's message
+* Be concise but complete
+* Match the tone of the original email
+* Avoid inventing facts, commitments, dates, or information that are not known
+* Clearly indicate any information I need to fill in manually
+
+### 4. REPORT FORMAT
+
+Start with:
+
+# Daily Gmail Summary — [Date]
+
+Then show:
+
+## 🔴 High Priority
+
+[Important emails]
+
+## 🟡 Medium Priority
+
+[Useful but non-urgent emails]
+
+## ✉️ Reply Required
+
+[Only emails that genuinely require a reply]
+
+## ✅ Quick Action List
+
+Provide a short checklist of the **most important actions I should take today**, ordered by urgency.
+
+### 5. Important rules
+
+* Prioritize **importance and required action**, not simply the number of emails.
+* Read the actual email content when available; do not classify emails based only on the subject line.
+* Be especially careful with **deadlines, payments, jobs, interviews, applications, security alerts, and time-sensitive requests**.
+* Clearly distinguish between **"action needed"** and **"no action needed."**
+* If no emails genuinely require a reply, **omit the Reply Required section entirely**.
+* If there are no high-priority or medium-priority emails, explicitly say so rather than filling the report with unimportant messages.
+* Keep the report concise and easy to scan in the morning.
+* Never send, forward, archive, delete, mark as read, or otherwise modify emails. **Only analyze them and prepare the report/drafts.**
